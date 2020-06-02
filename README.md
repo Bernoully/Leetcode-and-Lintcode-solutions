@@ -9,3 +9,4 @@ All Leetcode and LintCode Problems Solutions
 |1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [C++, Python](./LeetCode-Solutions/1342.Number-of-Steps-to-Reduce-a-Number-to-Zero.md)
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [C++, Python](./LeetCode-Solutions/7.Reverse-Integer.md)
 |1275|[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) | [C++, Python](./LeetCode-Solutions/1275.Find-Winner-on-a-Tic-Tac-Toe-Game.md )
+|1276|[Number of Burgers with No Waste of Ingredients](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/) | [C++, Python](./LeetCode-Solutions/1275.Find-Winner-on-a-Tic-Tac-Toe-Game.md )
