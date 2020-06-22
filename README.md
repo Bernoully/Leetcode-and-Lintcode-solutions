@@ -10,3 +10,4 @@ All Leetcode and LintCode Problems Solutions
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [C++, Python](./LeetCode-Solutions/7.Reverse-Integer.md)
 |1275|[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) | [C++, Python](./LeetCode-Solutions/1275.Find-Winner-on-a-Tic-Tac-Toe-Game.md )
 |1276|[Number of Burgers with No Waste of Ingredients](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/) | [C++, Python](./LeetCode-Solutions/1275.Find-Winner-on-a-Tic-Tac-Toe-Game.md )
+|1222|[Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/) | [C++](./LeetCode-Solutions/1222-queens-that-can-attack-the-king.md)
