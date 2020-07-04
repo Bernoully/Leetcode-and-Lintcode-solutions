@@ -11,4 +11,5 @@ All Leetcode and LintCode Problems Solutions
 |1275|[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) | [C++, Python](./LeetCode-Solutions/1275.Find-Winner-on-a-Tic-Tac-Toe-Game.md )
 |1276|[Number of Burgers with No Waste of Ingredients](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/) | [C++, Python](./LeetCode-Solutions/1275.Find-Winner-on-a-Tic-Tac-Toe-Game.md )
 |1222|[Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/) | [C++](./LeetCode-Solutions/1222-queens-that-can-attack-the-king.md)
-|1318|[Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | [C++](./LeetCode-Solutions/1318-Minimum-Flips-to-Make-a-OR-b-Equal-to-c.md)
+|1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | [C++](./LeetCode-Solutions/1317.Convert-Integer-to-the-Sum-of-Two-No-Zero-Integers.md)
+|1318|[Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | [C++](./LeetCode-Solutions/1318.Minimum-Flips-to-Make-a-OR-b-Equal-to-c.md)
