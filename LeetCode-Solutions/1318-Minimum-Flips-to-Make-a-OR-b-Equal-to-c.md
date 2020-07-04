@@ -1,0 +1,54 @@
+# 1318. Minimum Flips to Make a OR b Equal to c
+## Problem Statement:
+Given 3 positives numbers a, b and c. Return the minimum flips required in some bits of a and b to make ( a OR b == c ). (bitwise OR operation).
+Flip operation consists of change any single bit 1 to 0 or change the bit 0 to 1 in their binary representation.
+
+Example 1:
+
+Input: a = 2, b = 6, c = 5
+Output: 3
+Explanation: After flips a = 1 , b = 4 , c = 5 such that (a OR b == c)
+
+Example 2:
+
+Input: a = 4, b = 2, c = 7
+Output: 1
+
+Example 3:
+
+Input: a = 1, b = 2, c = 3
+Output: 0
+ 
+
+Constraints:
+
+1 <= a <= 10^9
+1 <= b <= 10^9
+1 <= c <= 10^9
+
+## Solution Idea (O(log(n))):
+For each bit in C if this bit is 0 I'll count 1 if A had 1 in this position and another 1 if B has 1 in this position (2 if both had 1 in this position).
+if C has 1 in this bit I'll check if both A and B had 0 in this position I'll flip anyone of them and count 1.
+## Code
+### C++ (Runtime: 0 ms)
+```cpp
+class Solution {
+public:
+    int minFlips(int a, int b, int c) {
+        int flips = 0;
+        for(int bit = 0; bit < 31;bit++) {
+            if((c & (1<<bit)) == 0) {
+                // to have 0 we fill do a flip for anyone has 1 in this position 
+                flips+= ((b & (1<<bit)) != 0);
+                flips+= ((a & (1<<bit)) != 0);
+            } else {
+                // if at this bit c is 1
+                // both are zeros so we count 1 to filp anyone of them
+                flips+= (((a & (1<<bit)) == 0) && ((b & (1<<bit)) == 0));
+            }
+        }
+        
+        return flips;
+    }
+};
+```
